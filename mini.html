@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:
+				ANd9GcR0YbDvCFOixOjHSlscAoby8Oq4XT7u2DklkQ&s">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<Style>
+	
+#ff
+{
+	font-size:20px;
+	margin-top:90px;
+	background-color:gray;
+}
+
+.text
+{
+	font-style:italic;
+	font-size:35px;
+	
+	width:500px;
+	height:400px;
+	float:left;
+	margin-left:100px;
+	
+}
+#img
+{
+	
+	
+	float:right;
+	width:50%;
+	height:400px;
+	margin-right:50px;
+	
+}
+
+
+.dd
+{
+	font-size:25px;
+	margin-left:150px;
+	font-weight:italic;
+}
+#box
+{
+
+	height:520px;
+	background-color:#fff9e6;
+}
+#ss
+{
+	background-color:black;
+	color:white;
+	font-size:30px;
+}
+#sc
+{
+	font-size:40px;
+}
+#dd
+{
+	font-weight:roman;
+	font-size:25px;
+}
+.me
+{
+	font-size:25px;
+	margin-left:100px;
+	text-align:center;
+}
+#total
+{
+	width:100%;
+	position:relative;
+	top:40px;
+	height:612px;
+	border:1px solid black;
+	
+}
+#book
+{
+	margin-top:20px;
+	margin-left:-20px;
+	margin-bottom:40px;
+}
+fieldset
+{
+	background-color:lightgray;
+}
+
+	</Style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top">
+            <div class="container-fluid">
+				<a href="#about" class="navbar-brand">
+					<img src="https://i.pinimg.com/474x/0d/0b/21/0d0b211c1ecc0562b9f4c2a4305c9436.jpg" alt="Bootstrap" width="150" height="75" loading="lazy" class="d-inline-block align-top">
+					<br>MEGHA'S KITCHEN</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" 
+				aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item ">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#book" class="nav-link">Resevation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+	<div id="total"><center><button id="ff" ><b><a href="#book">Book a table</a></b></button></center>
+		<div id="box">
+			<h2 style="font-family:fantasy"  >WHY CHOSSE US?</h2>
+			<p class="text" >“You’re in good hands with us”	Eat to your heart’s content”“We have the best food 
+			in town!”
+			“It’s all about you here.“The only thing better than our food is our service.”“No one does it we do.</p>
+			<img src="https://tse3.mm.bing.net/th?id=OIP.n5kTYovUzLXXmy_FH0XVpgHaE3&pid=Api&P=0&h=220" id="img">
+		</div>
+		
+		<img src="https://tse2.mm.bing.net/th?id=OIP.8GlHm0-KOfGouHkyAOcDUwHaD3&pid=Api&P=0&h=220" 
+		width="100%" height="500px"><br><br>
+		
+		<center><form id="res">
+		<fieldset style="width:500px;border:1px solid black;">
+		<h2 class="dd" id="book"><b>MAKE A BOOKING</b></h2>
+		&nbsp &nbsp &nbsp Your Name&nbsp:<input type="text" name="name" placeholder=" Your name" id="name" autocomplete="off"><br><br>
+	    Phone Number&nbsp:<input type="text" name="pn" placeholder="mobile number" id="phone"  autocomplete="off"><br><br>
+		&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp Table.No&nbsp:<input type="number" name="pn" placeholder="Table number" id="num" autocomplete="off">
+		<br><br>Select Restaurent&nbsp:<select >
+				<option name="res" value="1">BRANCH-1(KOVAI)</option>
+				<option name="res" value="2">BRANCH-1(CHENNAI)</option>
+				<option name="res" value="3">BRANCH-1(SALEM)</option>
+				<option name="res" value="4">BRANCH-1(MADURAI)</option>
+			</select><br><br>
+		
+		<button style="background-color:gray;margin-left:120px" class="btn btn-default" onclick="info()" type="Submit">Submit</button><br><br>
+		</fieldset></form></center>
+		
+		<div id="menu" class="me"><h2 ><b>MENU</b></h2></div>
+        <p class="me">
+				<b >Paneer Butter Masala Recipe<br><br>
+				samosa stuffed with spiced potatoes, served with chutney<br><br>
+				Samosa Recipe, How to Make Punjabi Samosa,<br><br>
+				Butter chicken also known as murgh makhani is a Indian dish,<b><b><br><br>
+				Butter Chicken Recipe (Indian Chicken Makhani)<br><br>
+				chana masala<br><br>
+				Chana Masala Recipe<br><br>
+				palak paneer<br><br>
+				Palak Paneer Recipe (Indian Spinach Paneer)<br><br>
+				dal makhani - restaurant style<br><br>
+				Dal Makhani Recipe (Restaurant Style)</b>
+		<div id="sc"><center><p><p><h2 id="sd">Shop details</h2>
+			<h3> Opening times</h3>
+			Monday-Thursday:8.30A.M-9.00P.M<br><br>
+			Friday-Saturday:8.00A.M-5.00P.M<br><br>
+			Sunday:24hrs</p><br></center></div>
+			<footer><center><p><h3 id="ss">CONDACT ORDER DETAILS<h3><br>
+			<p id="contact">Salem-9342810398 &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Covai-99440358321 &nbsp&nbsp &nbsp&nbsp&nbsp &nbsp  Erode-9626339451 
+			&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp	Chennai-9865180025<br> ALL OVER TN:1800-825-120</p></center>
+			</footer>
+	</div>
+	<script>
+	function info()
+	{
+		var a=document.getElementById("name").value
+		var b=document.getElementById("phone").value
+		var c=document.getElementById("num").value
+		alert("hi!Mr"+a) 
+		alert("Your seat is booked.Table no is:"+c)
+		
+		
+	}
+	</script>
+</body>
+</html>
